@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,*::before,*::after{
+    box-sizing: initial;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: #77A6B6
+}
+
+.twitter{
+    max-width: 320px;
+    position: absolute;
+    float: right;
+    top: 113px;
+    padding-left: 1050px;
+}
+
+section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 3;
+    overflow: hidden;
+    background-color: #2A628F;
+}
+
+section li{
+    float:left;
+}
+
+section li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+section li a:hover {
+    background-color: #16324F;
+}
+
+.active {
+    background-color: #3E92CC;
+  }
+
+img{
+    max-width: 20%;
+}
+
+div.contenedor1 img.izquierda1 {
+    float: left;
+    margin-right: 15px;
+}
+
+div.contenedor2 img.izquierda2 {
+    float: left;
+    margin-right: 15px;
+}
+
+div.contenedor3 img.izquierda3 {
+    float: left;
+    margin-right: 15px;
+}
+
+.contenedor1{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+}
+
+.contenedor2{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+}
+
+.contenedor3{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+}
+
+.contenedores{
+    max-width: 990px;
+    width: 95%;
+    margin: 0;
+    display: grid;
+    column-gap: 2rem;
+}
