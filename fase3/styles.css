@@ -78,13 +78,17 @@ p {
 
 .main{
     padding: 5rem;
+    width:  75%;
+    max-width:  750px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .footer {
     background: #01161E;
     color: #EFF6E0;
     padding: 2rem 0;
-    text-align: center;
+    justify-content: center;
     margin-top: 3rem;
 }
 
@@ -94,3 +98,35 @@ p {
     right: 0;
     top: 5rem;
 }
+
+img {
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+}
+
+.goals-1 {
+    float: left;
+    margin: 10px;
+}
+
+.html-1 {
+    float: left;
+    margin: 10px;
+}
+
+.ai-1 {
+    float: left;
+    margin: 10px;
+}
+
+p {
+    clear: both;
+    margin: 10px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
